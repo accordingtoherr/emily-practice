@@ -1,0 +1,119 @@
+
+.App {
+  min-height: 100vh;
+ background: linear-gradient(
+-30deg
+, #d754ad 0%, #d754ad 10%, #f96785 62%, #fe7333 100%);
+ padding-bottom: 10px;
+
+}
+
+.searchform {
+  min-height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  
+}
+.buttonsub{
+  align-items: center;
+  background-color:white;
+  
+}
+
+
+
+.searchbar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+
+.header {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6.6px;
+  margin-bottom: 6px;
+  
+}
+
+.button{
+  background-color: grey;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+.reddit{
+  max-width: 50px;
+  max-height: 50px;
+  padding-left: 6px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:7px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+background: linear-gradient(
+-30deg
+, #d754ad 0%, #d754ad 10%, #f96785 62%, #fe7333 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:.5px;
+}
+
+        
+.subtitle {
+  text-align: center;
+}
+
+.subpost {
+  padding-left:10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.subimg{
+max-height: 500px;
+max-height: 500px;
+border-radius: 2%;
+padding-top: -5px;
+
+}
+
+.subreddit{
+  color: black;
+}
