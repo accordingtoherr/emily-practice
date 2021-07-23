@@ -1,11 +1,10 @@
 import React from 'react';
-// get our fontawesome imports
+import './SongsList.scss';
 
 
-import './App.css';
 
+const SongsList = ({ title, artist, price, image, link }, props) => {
 
-const Subreddit = ({ title, artist, price, image, link }) => {
 
 
   return (
@@ -14,8 +13,9 @@ const Subreddit = ({ title, artist, price, image, link }) => {
       <div className="subitem">
         <h1 className="subtitle">{title}</h1>
         <img className="subimg" src={image} alt="album art" />
-        <h2 className="subreddit">{artist}</h2>
-        <p className="subpost">{price}</p>
+        <h2 className="artist">{artist}</h2>
+        <p className="price">{price}</p>
+        <a className="myButton" href={link}>See More</a>
 
       </div>
     </div>
@@ -24,4 +24,4 @@ const Subreddit = ({ title, artist, price, image, link }) => {
   );
 }
 
-export default Subreddit;
+export default SongsList

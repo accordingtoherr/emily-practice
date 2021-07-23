@@ -1,0 +1,70 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(
+    -30deg,
+    #d754ad 0%,
+    #d754ad 10%,
+    #f96785 62%,
+    #fe7333 100%
+  );
+  padding-bottom: 10px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 0 15px 15px 0;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.search {
+  font-size: 16px;
+}
+
+.button:active {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.searchform {
+  min-height: 15vh;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.searchbar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.header {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6.6px;
+  margin-bottom: 6px;
+  padding-top: 4rem;
+}
+
+.button {
+  background-color: grey;
+  padding: 10px;
+  border: none;
+  color: white;
+}
