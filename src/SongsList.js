@@ -9,7 +9,7 @@ const SongsList = ({ title, artist, price, image, link }, props) => {
 
   return (
 
-    <div className="items">
+    <div className="items"   data-testid="songsList" >
       <div className="subitem">
         <h1 className="subtitle">{title}</h1>
         <img className="subimg" src={image} alt="album art" />
